@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lag="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Student Registration </p>
+    <div class="survey">
+    <form id="survey-form">
+      <label id="name-label">Name<label><br>
+      <input required type="text"id="name" placeholder="Enter your Name"><br>
+      <br>
+      <label id="email-label" >E-mail</label><br>
+      <input required type="email" id="email" Placeholder="Enter your E-mail"><br>
+      <br>
+      <label id="number-label">Age</label><br>
+      <input type="number" id="number" min="18"max="28" placeholder="Age"><br>
+      <br>
+     <label>How many years of Experience</label><br>
+      <select id="dropdown">
+        <option></option>
+        <option>fresher</option>
+        <option>0-1</option>
+        <option>2-3</option>
+        </select><br>
+        <br>
+        <label>Highest Degree</label><br>
+        <input type="radio" value="b.tech" name="graduated">BE/B.tech
+        <input type="radio" value="m.tech" name="graduated">M.tech
+        <input type="radio" value="bsc" name="graduated">Bsc<br>
+        <br>
+      <label>Language and Framework know?</label><br>
+        <label><input type="checkbox" value="java" name="language">Java
+        </label><br>
+       <label><input type="checkbox" value="python" name="language">python
+       </label><br>
+       <label><input type="checkbox" value="javascript" name="language">javascript
+       </label><br>
+       <label><input type="checkbox" value="Html/CSS" name="language">Html/CSS
+       </label><br>
+       <br>
+       <label>Add comments or Suggestions</label><br>
+       <textarea type="text"></textarea>
+       <br>
+       <br>
+       <button type="submit" id="submit">
+         Submit
+         </button>
+        </form>
+        </div>
+    </body>
+
+  </html>
